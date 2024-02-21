@@ -1,11 +1,8 @@
-/*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/*=============== VARIABLES CSS ===============*/
 :root{
     --header-height: 3rem;
     
-    /*========== Colors ==========*/
     --hue-color: 206;
     
     --black-color: hsl(var(--hue-color), 4%, 4%);
@@ -20,7 +17,6 @@
     --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
     --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
     
-    /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     
     --biggest-font-size: 5rem;
@@ -44,11 +40,9 @@
         --smaller-font-size: .813rem;
     }
 
-    /*========== Font weight ==========*/
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /*========== Margenes Bottom ==========*/
     --mb-0-5: .5rem; 
     --mb-0-75: .75rem; 
     --mb-1: 1rem; 
@@ -56,7 +50,6 @@
     --mb-2: 2rem; 
     --mb-2-5: 2.5rem;
 
-    /*========== z index ==========*/
     --z-tooltip: 10;
     --z-fixed: 100;
 }
